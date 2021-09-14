@@ -7,10 +7,11 @@ function getJShand(){
 
   if(js_hand_num == 0){
     js_hand = "グー";
-  } else if(js_hand == 1){
+  } else if(js_hand_num == 1){
     js_hand = "チョキ";
-  } else if(js_hand == 2){
+  } else if(js_hand_num == 2){
     js_hand = "パー";
   }
 
+  return js_hand;
 }
