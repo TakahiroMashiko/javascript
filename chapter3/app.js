@@ -5,4 +5,8 @@ alert('あなたの選んだ手は' + user_hand + 'です。');
 function getJShand(){
   let js_hand_num = Math.floor( Math.random() * 3 );
 
+  if(js_hand_num == 0){
+    js_hand = "グー";
+  }
+
 }
