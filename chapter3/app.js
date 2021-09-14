@@ -7,6 +7,8 @@ function getJShand(){
 
   if(js_hand_num == 0){
     js_hand = "グー";
+  } else if(js_hand == 1){
+    js_hand = "チョキ";
   }
 
 }
