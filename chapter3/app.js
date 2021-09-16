@@ -1,6 +1,9 @@
 // じゃんけんの手を入力してもらうプロンプト欄を生成
 let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
 
+// じゃんけんの手をランダムに作成する関数を呼び出す
+let js_hand = getJShand();
+
 alert('あなたの選んだ手は' + user_hand + 'です。');
 
 function getJShand(){
