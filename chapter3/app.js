@@ -4,6 +4,8 @@ let user_hand = prompt('じゃんけんの手をグー、チョキ、パーか�
 // じゃんけんの手をランダムに作成する関数を呼び出す
 let js_hand = getJShand();
 
+// ユーザの手とJavaScriptのじゃんけんの手を比べる関数を呼び出し、結果をjudgeに入れる
+
 // 結果を表示する
 alert('あなたの選んだ手は' + user_hand + 'です。');
 
