@@ -24,3 +24,5 @@ function getJShand(){
 
   return js_hand;
 }
+
+// ユーザの手とJavaScriptのじゃんけんの手を比べる関数
