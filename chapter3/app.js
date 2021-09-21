@@ -26,3 +26,6 @@ function getJShand(){
 }
 
 // ユーザの手とJavaScriptのじゃんけんの手を比べる関数
+function winLose(user, js){
+
+}
