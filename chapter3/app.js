@@ -28,8 +28,10 @@ function getJShand(){
 // ユーザの手とJavaScriptのじゃんけんの手を比べる関数
 function winLose(user, js){
   let winLoseStr;
-  
+
   if(user == "グー"){
-    
+    if(js == "グー"){
+
+    }
   }
 }
