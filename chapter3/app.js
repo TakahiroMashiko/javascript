@@ -32,6 +32,8 @@ function winLose(user, js){
   if(user == "グー"){
     if(js == "グー"){
       winLoseStr = "あいこ";
+    } else if(js == "チョキ"){
+      
     }
   }
 }
