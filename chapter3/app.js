@@ -13,6 +13,7 @@ alert('あなたの選んだ手は' + user_hand + 'です。\nJavaScriptの選�
 // ランダムでじゃんけんの手を作成する関数
 function getJShand(){
   let js_hand_num = Math.floor( Math.random() * 3 );
+  let hand_name;
 
   if(js_hand_num == 0){
     js_hand = "グー";
