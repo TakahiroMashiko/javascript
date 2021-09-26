@@ -1,7 +1,8 @@
 // じゃんけんの手を入力してもらうプロンプト欄を生成
 let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
-while((user_hand != "グー")) && ((user_hand != "チョキ")) && (user_hand != "パー") && (user_hand != null ){
+while((user_hand != "グー") && ((user_hand != "チョキ")) && (user_hand != "パー") && (user_hand != null )){
   alert('グー・チョキ・パーのいずれかを入力して下さい');
+  user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
 }
 
 // じゃんけんの手をランダムに作成する関数を呼び出す
