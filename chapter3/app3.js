@@ -14,6 +14,8 @@ let judge = winLose(user_hand, js_hand);
 // 結果を表示する
 if(user_hand != null){
   alert('あなたの選んだ手は' + user_hand + 'です。\nJavaScriptの選んだ手は' + js_hand + 'です。\n結果は' + judge + 'です。');
+} else {
+
 }
 
 // ランダムでじゃんけんの手を作成する関数
