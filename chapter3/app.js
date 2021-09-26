@@ -48,6 +48,8 @@ function winLose(user, js){
   } else if(user == "パー"){
     if(js == "グー"){
       winLoseStr = "勝ち";
+    } else if(js == "チョキ"){
+
     }
   }
 }
