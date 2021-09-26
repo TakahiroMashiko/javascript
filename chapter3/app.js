@@ -16,14 +16,14 @@ function getJShand(){
   let hand_name;
 
   if(js_hand_num == 0){
-    js_hand = "グー";
+    hand_name = "グー";
   } else if(js_hand_num == 1){
-    js_hand = "チョキ";
+    hand_name = "チョキ";
   } else if(js_hand_num == 2){
-    js_hand = "パー";
+    hand_name = "パー";
   }
 
-  return js_hand;
+  return hand_name;
 }
 
 // ユーザの手とJavaScriptのじゃんけんの手を比べる関数
