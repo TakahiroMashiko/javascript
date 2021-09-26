@@ -12,7 +12,9 @@ let js_hand = getJShand();
 let judge = winLose(user_hand, js_hand);
 
 // 結果を表示する
-alert('あなたの選んだ手は' + user_hand + 'です。\nJavaScriptの選んだ手は' + js_hand + 'です。\n結果は' + judge + 'です。');
+if(user_hand != null){
+  alert('あなたの選んだ手は' + user_hand + 'です。\nJavaScriptの選んだ手は' + js_hand + 'です。\n結果は' + judge + 'です。');
+}
 
 // ランダムでじゃんけんの手を作成する関数
 function getJShand(){
