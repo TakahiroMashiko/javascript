@@ -7,4 +7,8 @@ $(function(){
     $('.bg2').slideUp();
   });
 
+  $('.bg3').on('click', function(){
+    $('.bg3').slideUp();
+  });
+
 })
