@@ -2,4 +2,6 @@
 $(".theTarget").skippr({
   // スライドショーの変化（"fade" or "slide"）
   transition : 'fade',
+  // 変化にかかる時間（ミリ秒）
+  speed : 1000,
 });
