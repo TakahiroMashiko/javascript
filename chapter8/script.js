@@ -4,4 +4,6 @@ $(".theTarget").skippr({
   transition : 'fade',
   // 変化にかかる時間（ミリ秒）
   speed : 1000,
+  // easingの種類
+  easing : 'easeOutQuart',
 });
