@@ -6,4 +6,6 @@ $(".theTarget").skippr({
   speed : 1000,
   // easingの種類
   easing : 'easeOutQuart',
+  // ナビゲーションの形（"block" or "bubble"）
+  navType : 'block',
 });
