@@ -8,4 +8,6 @@ $(".theTarget").skippr({
   easing : 'easeOutQuart',
   // ナビゲーションの形（"block" or "bubble"）
   navType : 'block',
+  // 子要素の種類（"div" or "img"）
+  childrenElementType : 'div',
 });
