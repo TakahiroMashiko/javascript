@@ -10,4 +10,6 @@ $(".theTarget").skippr({
   navType : 'block',
   // 子要素の種類（"div" or "img"）
   childrenElementType : 'div',
+   // ナビゲーション矢印の表示（trueで表示）
+  arrows : true,
 });
