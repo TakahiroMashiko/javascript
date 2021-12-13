@@ -12,4 +12,6 @@ $(".theTarget").skippr({
   childrenElementType : 'div',
    // ナビゲーション矢印の表示（trueで表示）
   arrows : true,
+  // スライドショーの自動再生（falseで自動再生なし）
+  autoPlay : false,
 });
