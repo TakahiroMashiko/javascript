@@ -16,4 +16,6 @@ $(".theTarget").skippr({
   autoPlay : false,
   // 自動再生時のスライド切替間隔（ミリ秒）
   autoPlayDuration : 5000,
+  // キーボードの矢印キーによるスライド送りの設定（trueで有効）
+  keyboardOnAlways : true,
 });
