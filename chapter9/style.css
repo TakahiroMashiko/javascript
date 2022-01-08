@@ -12,5 +12,5 @@ h1 {
 .box {
   height: 300px;
   width: 600px;
-
+  margin: 0 auto 50px;
 }
