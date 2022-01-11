@@ -17,4 +17,5 @@ h1 {
 }
 #back {
   position: fixed;
+  right: 20px;
 }
