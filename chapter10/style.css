@@ -29,5 +29,6 @@ h1 {
 .menu-trigger,
 .menu-trigger span {
   display: inline-block;
+  transition: all .4s;
 
 }
