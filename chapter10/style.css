@@ -38,5 +38,6 @@ h1 {
   height: 44px;
 }
 .menu-trigger span {
+  position: absolute;
 
 }
