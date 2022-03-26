@@ -40,5 +40,6 @@ h1 {
 .menu-trigger span {
   position: absolute;
   left: 0;
+  width: 100%;
 
 }
