@@ -54,3 +54,6 @@ h1 {
 .menu-trigger span:nth-child(3) {
   bottom: 0;
 }
+.menu-trigger.active span:nth-child(1) {
+
+}
