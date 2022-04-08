@@ -57,4 +57,5 @@ h1 {
 .menu-trigger.active span:nth-child(1) {
   -webkit-transform: translateY(20px) rotate(-45deg);
   transform: translateY(-20px) rotate(45deg);
+  background-color: #fff;
 }
