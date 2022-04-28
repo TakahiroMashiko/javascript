@@ -79,5 +79,6 @@ h1 {
 }
 #sp-menu a {
   color: #fff;
-  text-decoration: non
+  text-decoration: none;
+  font-weight: bold;
 }
