@@ -18,5 +18,5 @@ h1 {
 }
 
 #tab-menu {
-
+  display: flex;
 }
