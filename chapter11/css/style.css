@@ -29,4 +29,5 @@ h1 {
 #tab-menu li a {
   color: #fff;
   text-decoration: none;
+  display: block;
 }
