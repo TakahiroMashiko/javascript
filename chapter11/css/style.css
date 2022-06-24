@@ -43,5 +43,6 @@ h1 {
 }
 
 #tab-contents {
+  display: flex;
 
 }
