@@ -44,5 +44,5 @@ h1 {
 
 #tab-contents {
   display: flex;
-
+  flex-wrap: wrap;
 }
