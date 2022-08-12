@@ -8,6 +8,8 @@ $(function(){
       dataType : 'jsonp',
     }).done(function (data){
       //通信成功
+      // 位置
+      $('#place').text(data.name);
     })
     }).fail(function (data) {
       //通信失敗
