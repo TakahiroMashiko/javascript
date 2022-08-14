@@ -12,6 +12,8 @@ $(function(){
       $('#place').text(data.name);
       // 最高気温
       $('#temp_max').text(data.main.temp_max);
+      // 最低気温
+      $('#temp_min').text(data.main.temp_min);
     })
     }).fail(function (data) {
       //通信失敗
