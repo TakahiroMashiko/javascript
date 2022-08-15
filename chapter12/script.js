@@ -14,6 +14,8 @@ $(function(){
       $('#temp_max').text(data.main.temp_max);
       // 最低気温
       $('#temp_min').text(data.main.temp_min);
+      //湿度
+      $('#humidity').text(data.main.humidity);
     })
     }).fail(function (data) {
       //通信失敗
