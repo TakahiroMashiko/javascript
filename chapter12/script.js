@@ -16,6 +16,8 @@ $(function(){
       $('#temp_min').text(data.main.temp_min);
       //湿度
       $('#humidity').text(data.main.humidity);
+      //風速
+      $('#speed').text(data.wind.speed);
     })
     }).fail(function (data) {
       //通信失敗
