@@ -18,6 +18,8 @@ $(function(){
       $('#humidity').text(data.main.humidity);
       //風速
       $('#speed').text(data.wind.speed);
+      // 天気
+      $('#weather').text(data.weather[0].main);
     })
     }).fail(function (data) {
       //通信失敗
